@@ -1,4 +1,7 @@
 def divide(x, y):
+    if y == 0:
+        print(f"Error: Cannot divide {x} by zero")
+        return None
 
     result = x / y
     print(f"{x} ÷ {y} = {result}")
