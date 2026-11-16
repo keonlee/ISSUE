@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-
     steps:
       - name: Install Copilot CLI
         run: npm install --global @github/copilot
