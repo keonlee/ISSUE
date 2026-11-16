@@ -1,6 +1,6 @@
 def divide(x, y):
     if y == 0:
-        raise ValueError("Cannot divide by zero")
+        raise ValueError(f"Cannot divide {x} by {y}: the divisor is zero.")
 
     result = x / y
     print(f"{x} ÷ {y} = {result}")
